@@ -6,7 +6,7 @@
 }
 
 body {
-  background: url('background.jpg') no-repeat center center fixed;
+  background: url('background.png') no-repeat center center fixed;
   background-size: cover;
   font-family: 'Orbitron', sans-serif;
   color: white;
@@ -27,8 +27,9 @@ body {
 }
 
 .overlay {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
   padding: 20px;
+  border-radius: 10px;
 }
 
 .title {
@@ -46,18 +47,21 @@ body {
 .trailer {
   text-align: center;
   padding: 50px 20px;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .video-container iframe {
   width: 100%;
   max-width: 800px;
   height: 450px;
+  border-radius: 10px;
 }
 
 /* Section About */
 .about {
   text-align: center;
   padding: 50px 20px;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .about p {
@@ -70,6 +74,7 @@ body {
 .features {
   text-align: center;
   padding: 50px 20px;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .features ul {
@@ -86,7 +91,7 @@ body {
 .download {
   text-align: center;
   padding: 50px 20px;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .download-btn {
@@ -109,6 +114,7 @@ body {
 .community {
   text-align: center;
   padding: 50px 20px;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .community-btn {
@@ -131,10 +137,7 @@ body {
 .footer {
   text-align: center;
   padding: 10px 20px;
-  background-color: rgba(0, 0, 0, 0.8);
-  position: relative;
-  bottom: 0;
-  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 .footer p {
@@ -157,7 +160,6 @@ body {
   }
 
   .video-container iframe {
-    max-width: 100%;
     height: auto;
   }
 
