@@ -1,0 +1,167 @@
+/* Styles généraux */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url('background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+/* Section Hero */
+.hero {
+  position: relative;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+.title {
+  font-size: 60px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.tagline {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+/* Section Trailer */
+.trailer {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.video-container iframe {
+  width: 100%;
+  max-width: 800px;
+  height: 450px;
+}
+
+/* Section About */
+.about {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.about p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+
+/* Section Features */
+.features {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Section Download */
+.download {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.download-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+.download-btn:hover {
+  background-color: #218838;
+}
+
+/* Section Community */
+.community {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.community-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+.community-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer p {
+  font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .title {
+    font-size: 40px;
+  }
+
+  .tagline {
+    font-size: 18px;
+  }
+
+  .download-btn, .community-btn {
+    font-size: 16px;
+    padding: 12px 25px;
+  }
+
+  .video-container iframe {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .download, .community {
+    padding: 40px 20px;
+  }
+}
